@@ -1,0 +1,28 @@
+.video-bg {
+    height: 400px;
+    position: relative;
+  }
+  #video {
+    /* position: fixed;
+    left: 50%;
+    top: 0; */
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1100;
+    background-size: cover;
+    /* transform: translateX(-50%); */
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* width: 100%; */
+    /* transform: translate(-50%,-50%); */
+    z-index: 99;
+    font-family: HelveticaNeue, Helvetica, sans-serif;
+    font-size:8vmin;
+    text-align:center;
+    color: white;
+  }

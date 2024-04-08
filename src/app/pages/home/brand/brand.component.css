@@ -1,0 +1,27 @@
+#brandSection{
+    background-color: #000;
+    color: #fff;
+}
+.brandSubtitle{
+    color: #fff;
+    font-size: var(--custom-subtitle-fontSize);
+    padding-top: 20px;
+}
+.brandTitle{
+    font-family: var(--custom-title-font);
+    font-size: var(--custom-title-fontSize);
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+    padding-bottom: 20px;
+
+}
+.brandLogo{
+    opacity: 0.7;
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+.mySwiper{
+    overflow: hidden;
+}

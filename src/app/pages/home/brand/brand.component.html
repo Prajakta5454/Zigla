@@ -1,0 +1,23 @@
+<div class="container-fluid pb-4 pt-4" id="brandSection">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 text-center">
+            <div class="">
+                <div class="brandSubtitle">
+                    These Companies Trust Us
+                </div>
+                <div class="brandTitle">
+                    Join The Network
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+            <div class="row justify-content-center text-center">
+                <swiper [config]="config" class="mySwiper">
+                <ng-template class="col-3" *ngFor="let brand of brands" swiperSlide>
+                    <img class="img-fluid brandLogo" src="{{imagePath}}{{brand.logo}}" alt="">  
+                </ng-template>
+              </swiper>
+            </div>
+        </div>
+    </div>
+</div>

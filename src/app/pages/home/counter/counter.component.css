@@ -1,0 +1,43 @@
+#counterSection{
+    background-color: var(--custom-secondary-color);
+    padding: 40px;
+}
+.counterTitle{
+    font-family: var(--custom-title-font);
+    font-size: var(--custom-title-fontSize);
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+}
+.counterSubtitle{
+    color: #fff;
+    font-size: var(--custom-subtitle-fontSize);
+}
+.counterNumberTitle{
+    color: var(--custom-primary-color);
+    font-size: var(--custom-subtitle-fontSize);
+    font-weight: 600;
+    font-family: var(--custom-subtitle-font);
+}
+  .counterNumber{
+    padding-top: 40px;
+    border-right:1px solid #fff;
+    position: relative;
+    color: var(--custom-primary-color);
+    font-size: 90px;
+    font-weight:bold;
+    font-family: var(--custom-title-font);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    }
+  .counterNumber:after{
+    content: "";
+    height:50%;
+    width:2px;
+    background-color:var(--custom-secondary-color);;
+    position: absolute;
+    right:-1px;
+    top:0px;
+  }
+  .noBorder{
+      border: none;
+  }

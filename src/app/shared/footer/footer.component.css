@@ -1,0 +1,26 @@
+.andro_footer-logo{
+    width: 185px;
+}
+.footer-widget li{
+    padding: 5px;
+}
+.footer-widget-heading {
+    height: 61px;
+    padding-left: 36px;
+    margin-bottom: 10px;
+}
+.widget-title{
+    font-weight: 900;
+    font-family: var(--custom-title-font);
+}
+.andro_footer-top ul{
+    margin: 0;
+}
+.social-media li img{
+    width: 25px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

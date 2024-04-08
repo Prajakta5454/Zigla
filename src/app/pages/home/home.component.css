@@ -1,0 +1,8 @@
+.ringSection{
+    background-color: #000;
+    background-image: url("/assets/img/elements/ring.png");
+    background-repeat: no-repeat;
+    background-position: -6% 0%;
+    background-size: 18%;
+    padding-top: 100px;
+}

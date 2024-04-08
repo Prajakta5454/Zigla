@@ -1,0 +1,50 @@
+<!-- <div class="banner-body">
+    <section class="card-row">
+        <article class="card">
+          <img class="card__img" alt="Preview of Whizzbang Widget" src="https://placeimg.com/320/240/tech" />
+          <div class="card__content">
+            <h3>Whizzbang Widget SuperDeluxe</h3>
+            <p>
+              Liquorice candy macaroon soufflé jelly cake. Candy canes ice cream
+              biscuit marzipan. Macaroon pie sesame snaps jelly-o.
+            </p>
+            <a href="#" class="button">Add to Cart</a>
+          </div>
+        </article>
+      </section>
+</div> -->
+<!-- <div class="blurredCircle">
+
+</div>
+<div class="ring">
+    <img class="img img-fluid" src="assets/img/elements/ring.png">
+</div> -->
+<div class="container-fluid" id="banner" [ngStyle]="{'height': windowHeight+'px'}">
+    <!-- <div class="sc-36bfb188-0 jcTjfv pt-14 py-md-12"><div class="heroVideoPlaceholder">
+      
+        <img class="img img-fluid banner-gif d-lg-block d-none" src="assets/img/home/HomeBannerV1.gif">
+    </div></div> -->
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="bannerSection text-light p-5">
+                <div class="bannerTitle">
+                    <!-- {{bannerTitle}} -->
+                    <p> {{bannerTitle}}
+                        <span #textElement class="text"></span>
+                        <span #blinkElement class="text blink"></span>
+                      </p>
+                </div>
+                <div class="bannerSubtitle mt-5">
+                    {{bannerDescription}}
+                </div>
+                <div class="bannerBtnGroup mt-4">
+                    <button class="btn me-2" id="primaryBtn">Our Portfolio</button>
+                    <button class="" id="playBtn"><div class="arrow-right"></div></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <!-- <img class="img img-fluid banner-gif d-lg-block d-none" src="assets/img/home/HomeBannerCropped.jpg"> -->
+        </div>
+    </div>
+</div>

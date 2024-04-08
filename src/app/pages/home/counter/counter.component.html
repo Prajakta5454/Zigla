@@ -1,0 +1,26 @@
+<div class="container-fluid" id="counterSection">
+    <div class="row justify-content-center text-center">
+        <div class="col-12">
+            <div class="counterText">
+                <div class="counterSubtitle">
+                    Digital Marketing Agency & Software Development
+                </div>
+                <div class="counterTitle">
+                    Company Website Design Full Services.
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3" *ngFor="let counter of counterData;let i = index">
+            <div class="numberSection">
+                <div class="counterNumber" [ngClass]=" i == counterData.length - 1 ? 'noBorder' : ''">
+                    {{counter.number}}
+                </div>
+                <div class="counterNumberTitle">
+                    {{counter.title}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

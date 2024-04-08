@@ -1,1 +1,110 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+:root{
+    --custom-primary-color: #E82C8C;
+    --custom-secondary-color: #1a1a1a;
+    --custom-title-font: 'Poppins', sans-serif;
+    --custom-subtitle-font: 'Roboto', sans-serif;
+    --custom-title-fontSize: 35px;
+    --custom-subtitle-fontSize: 18px;
+}
+body{
+  background-color: #000000;
+  color: #fff;
+  font-style: var(--custom-subtitle-font);
+  /* white-space: pre-line; */
+}
+ul {
+  list-style-type: none;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #fff;
+}
+footer{
+  font-weight: 500;
+  padding: 0 100px;
+}
+.swiper-wrapper{
+    display: flex !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 50px #000; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--custom-primary-color); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--custom-primary-color); 
+  }
+
+  
+.borderedBtn{
+  border: 2px solid #fff;
+  padding: 8px 40px !important;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 1025px) {
+  .nav-link{
+    font-size: 0.8rem !important;
+  }
+}
+
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 770px) {
+ :root{
+  --custom-title-fontSize: 25px;
+  --custom-subtitle-fontSize: 13px;
+ }
+ #headerNav{
+   padding: 10px !important;
+ }
+ footer{
+  padding: 0 10px;
+}
+ .logo{
+   width: 125px !important;
+ }
+ .navbar-toggler{
+    margin-top: auto;
+    text-align: -webkit-center;
+ }
+ .aboutText{
+  padding: 0% 5% 20% 5% !important;
+}
+.counterNumber{
+  border: none !important;
+}
+#newsletterSection{
+  background-position: 98% 98% !important;
+}
+.show{
+  text-align: center;
+}
+.show li{
+align-self: center;
+}
+}
